@@ -84,32 +84,139 @@ This laboratory experiment covers the principles of signal sampling and the reco
 <details>
   <summary>Experiment 11 Diagram</summary>
 
-**Figure 10.9: FM Modulator-Demodulator**
+**Figure 11.3: Natural Sampling**
 
-![Experiment 11 Setup](Diagrams/Exp11-Diagrams/Exp11_Fig10.9.jpg)
+![Experiment 11 Setup](Diagrams/Exp11-Diagrams/Exp11_Fig11.3.jpg)
+
+**Figure 11.5: Sample-and-Hold**
+
+![Experiment 11 Setup](Diagrams/Exp11-Diagrams/Exp11_Fig11.5.jpg)
+
+**Figure 11.8: Reconstruction**
+
+![Experiment 11 Setup](Diagrams/Exp11-Diagrams/Exp11_Fig11.8.jpg)
+</details>
+
+### Oscilloscope Display
+<details>
+  <summary>Experiment 11 Result</summary>
+
+**Natural Sampling**
+
+![Experiment 11 Natural Sampling 1](Diagrams/Exp11-Waveforms/Exp11_NaturalSampling1.jpg)
+![Experiment 11 Natural Sampling 2](Diagrams/Exp11-Waveforms/Exp11_NaturalSampling2.jpg)
+
+**Sample and Hold**
+
+![Experiment 11 Sample-and-Hold 1](Diagrams/Exp11-Waveforms/Exp11_SH1.jpg)
+![Experiment 11 Sample-and-Hold 2](Diagrams/Exp11-Waveforms/Exp11_SH2.jpg)
+
+**Reconstruction**
+
+![Experiment 11 Reconstruction 1](Diagrams/Exp11-Waveforms/Exp11_Reconstruction1.jpg)
+![Experiment 11 Reconstruction 2](Diagrams/Exp11-Waveforms/Exp11_Reconstruction2.jpg)
+
+</details>
+
+---
+## Laboratory Experiment 12: PCM Encoding
+This laboratory experiment covers the process of converting analog signals into digital signals through pulse code modulation (PCM).
+
+### PCM Encoding Process
+PCM encoding consists of three main steps:
+- Sampling - Converting the continuous signal into discrete samples.
+- Quantization – Approximating each sample to the nearest amplitude level.
+- Encoding – Representing the quantized values as binary numbers.
+
+### Circuit Diagram
+<details>
+  <summary>Experiment 11 Diagram</summary>
+
+**Figure 12.**
+
+![Experiment 12 Setup](Diagrams/Exp12-Diagrams/Exp12_Fig12..jpg)
 
 </details>
 
 ### Oscilloscope Display
 <details>
-  <summary>Experiment 11 Diagram</summary>
+  <summary>Experiment 12 Result</summary>
 
-**Natural Sampling**
+**n/a**
 
-![Experiment 11 Setup](Diagrams/Exp11-Waveforms/Exp11_NaturalSampling1.jpg)
-![Experiment 11 Setup](Diagrams/Exp11-Waveforms/Exp11_NaturalSampling2.jpg)
-
-**Sample and Hold**
-
-![Experiment 11 Setup](Diagrams/Exp11-Waveforms/Exp11_SH1.jpg)
-![Experiment 11 Setup](Diagrams/Exp11-Waveforms/Exp11_SH2.jpg)
-
-**Reconstruction**
-
-![Experiment 11 Setup](Diagrams/Exp11-Waveforms/Exp11_Reconstruction1.jpg)
-![Experiment 11 Setup](Diagrams/Exp11-Waveforms/Exp11_Reconstruction2.jpg)
+![Experiment 12 n/a](Diagrams/Exp12-Waveforms/Exp12_.jpg)
+![Experiment 12 n/a](Diagrams/Exp12-Waveforms/Exp12_.jpg)
 
 </details>
+
+### Observation
+The PCM encoder successfully converted the analog input signal into a digital bitstream. Each sample was quantized and represented as a binary value, demonstrating how analog information can be digitally transmitted and processed.
+
+---
+## Laboratory Experiment 13: PCM Decoding
+This laboratory experiment covers the process of decoding PCM signals and reconstructing the original analog waveform.
+
+### PCM Decoding Process
+- The digital PCM signal is decoded back into quantized amplitude levels.
+- A reconstruction filter smooths the stepped waveform.
+- The resulting signal approximates the original analog message signal.
+
+### Circuit Diagram
+<details>
+  <summary>Experiment 13 Diagram</summary>
+
+**Figure 13.**
+
+![Experiment 13 Setup](Diagrams/Exp13-Diagrams/Exp13_Fig13..jpg)
+
+</details>
+
+### Oscilloscope Display
+<details>
+  <summary>Experiment 13 Result</summary>
+
+**n/a**
+
+![Experiment 13 n/a](Diagrams/Exp12-Waveforms/Exp12_.jpg)
+![Experiment 13 n/a](Diagrams/Exp12-Waveforms/Exp12_.jpg)
+
+</details>
+
+### Observation
+The PCM decoder converted the binary bitstream back into an analog waveform. Although slight distortion due to quantization was observed, the reconstructed signal closely resembled the original message signal.
+
+---
+## Laboratory Experiment 14: Bandwidth limiting and restoring digital signals
+This laboratory experiment covers the effects of bandwidth limitations on digital signals and techniques used to restore degraded digital waveforms.
+
+### Digital Signal Bandwidth Effects
+- Limited bandwidth can cause signal distortion and intersymbol interference (ISI).
+- Digital signals may lose sharp transitions due to filtering.
+- Signal restoration techniques can reshape distorted waveforms.
+
+### Circuit Diagram
+<details>
+  <summary>Experiment 14 Diagram</summary>
+
+**Figure 14.**
+
+![Experiment 13 Setup](Diagrams/Exp14-Diagrams/Exp14_Fig14..jpg)
+
+</details>
+
+### Oscilloscope Display
+<details>
+  <summary>Experiment 14 Result</summary>
+
+**n/a**
+
+![Experiment 14 n/a](Diagrams/Exp12-Waveforms/Exp14_.jpg)
+![Experiment 14 n/a](Diagrams/Exp12-Waveforms/Exp14_.jpg)
+
+</details>
+
+### Observation
+When the digital signal passed through a bandwidth-limited channel, the waveform became distorted and the transitions between bits became less sharp. After applying signal restoration techniques, the waveform was reshaped and the digital signal became clearer, improving its readability and reliability.
 
 ---
 ## Learnings Summary
