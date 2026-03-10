@@ -110,6 +110,8 @@ This laboratory experiment covers the principles of signal sampling and the reco
 ![Experiment 11 Setup](Diagrams/Exp11-Waveforms/Exp11_Reconstruction2.jpg)
 
 </details>
+
 ---
 ## Learnings Summary
+
 Through these experiments, I gained a deeper understanding of both analog and digital communication techniques. I learned how frequency modulation works and how the original message signal can be recovered through demodulation. Additionally, the experiments demonstrated how analog signals can be converted into digital form through sampling and PCM encoding, and how these signals can later be decoded and reconstructed. Finally, the effects of bandwidth limitations on digital signals highlighted the importance of signal restoration techniques in maintaining reliable communication systems.
