@@ -26,7 +26,7 @@ This laboratory experiment covers the basic principles and generation of frequen
 **Part A: Frequency modulating a squarewave** 
 **Figure 9.4: FM Signal**
 
-![Experiment 9 Setup](Simulation_images/Exp9-Diagrams/Exp9_Fig9.4.jpg)
+![Experiment 9 Setup](Diagrams/Exp9-Diagrams/Exp9_Fig9.4.jpg)
 
 </details>
 
@@ -36,11 +36,11 @@ This laboratory experiment covers the basic principles and generation of frequen
   
 **Part A: Frequency modulating a squarewave** 
 
-![Experiment 9 Setup](Simulation_images/Exp9-Waveforms/Exp9_FM_signal.jpg)
+![Experiment 9 FM Signal](Simulation/Exp9-Waveforms/Exp9_FM_signal.jpg)
 
 **Part B: Genarating an FM signal using speech** 
 
-![Experiment 9 Setup](Simulation_images/Exp9-Waveforms/Exp9_FM_signalwSpeech.jpg)
+![Experiment 9 FM Signal w/ Speech](Simulation/Exp9-Waveforms/Exp9_FM_signalwSpeech.jpg)
 
 </details>
 
@@ -103,18 +103,18 @@ This laboratory experiment covers the principles of signal sampling and the reco
 
 **Natural Sampling**
 
-![Experiment 11 Natural Sampling 1](Diagrams/Exp11-Waveforms/Exp11_NaturalSampling1.jpg)
-![Experiment 11 Natural Sampling 2](Diagrams/Exp11-Waveforms/Exp11_NaturalSampling2.jpg)
+![Experiment 11 Natural Sampling 1](Simulation/Exp11-Waveforms/Exp11_NaturalSampling1.jpg)
+![Experiment 11 Natural Sampling 2](Simulation/Exp11-Waveforms/Exp11_NaturalSampling2.jpg)
 
 **Sample and Hold**
 
-![Experiment 11 Sample-and-Hold 1](Diagrams/Exp11-Waveforms/Exp11_SH1.jpg)
-![Experiment 11 Sample-and-Hold 2](Diagrams/Exp11-Waveforms/Exp11_SH2.jpg)
+![Experiment 11 Sample-and-Hold 1](Simulation/Exp11-Waveforms/Exp11_SH1.jpg)
+![Experiment 11 Sample-and-Hold 2](Simulation/Exp11-Waveforms/Exp11_SH2.jpg)
 
 **Reconstruction**
 
-![Experiment 11 Reconstruction 1](Diagrams/Exp11-Waveforms/Exp11_Reconstruction1.jpg)
-![Experiment 11 Reconstruction 2](Diagrams/Exp11-Waveforms/Exp11_Reconstruction2.jpg)
+![Experiment 11 Reconstruction 1](Simulation/Exp11-Waveforms/Exp11_Reconstruction1.jpg)
+![Experiment 11 Reconstruction 2](Simulation/Exp11-Waveforms/Exp11_Reconstruction2.jpg)
 
 </details>
 
@@ -132,9 +132,17 @@ PCM encoding consists of three main steps:
 <details>
   <summary>Experiment 11 Diagram</summary>
 
-**Figure 12.**
+**Figure 12.3**
 
-![Experiment 12 Setup](Diagrams/Exp12-Diagrams/Exp12_Fig12..jpg)
+![Experiment 12 Setup](Diagrams/Exp12-Diagrams/Exp12_Fig12.3.jpg)
+
+**Figure 12.6**
+
+![Experiment 12 Setup](Diagrams/Exp12-Diagrams/Exp12_Fig12.6.jpg)
+
+**Figure 12.8**
+
+![Experiment 12 Setup](Diagrams/Exp12-Diagrams/Exp12_Fig12.8.jpg)
 
 </details>
 
@@ -142,10 +150,34 @@ PCM encoding consists of three main steps:
 <details>
   <summary>Experiment 12 Result</summary>
 
-**n/a**
+**Part A Results**
 
-![Experiment 12 n/a](Diagrams/Exp12-Waveforms/Exp12_.jpg)
-![Experiment 12 n/a](Diagrams/Exp12-Waveforms/Exp12_.jpg)
+Step 6: Slope control at the "-" position
+![Experiment 12 Part A-6](Simulation/Exp12-Waveforms/Exp12_A6.jpg)
+
+Step 8: Timebase control changed to 0.1ms/div
+![Experiment 12 Part A-8](Simulation/Exp12-Waveforms/Exp12_A8.jpg)
+
+Step 12: PCM Encoder output connected to Channel 2
+![Experiment 12 Part A-12](Simulation/Exp12-Waveforms/Exp12_A12.jpg)
+
+End of Part A
+![Experiment 12 Part A-End](Simulation/Exp12-Waveforms/Exp12_A-end.jpg)
+
+
+**Part B Results**
+
+Variable DC control in counter clockwise position
+![Experiment 12 Part B-VDC C.CW](Simulation/Exp12-Waveforms/Exp12_B_CCW.jpg)
+
+Variable DC control in clockwise position
+![Experiment 12 Part B-VDC CW](Simulation/Exp12-Waveforms/Exp12_B_CW.jpg)
+
+
+**Part D Result**
+
+End of Part D
+![Experiment 12 Part D-End](Simulation/Exp12-Waveforms/Exp12_D_end.jpg)
 
 </details>
 
@@ -177,8 +209,8 @@ This laboratory experiment covers the process of decoding PCM signals and recons
 
 **n/a**
 
-![Experiment 13 n/a](Diagrams/Exp12-Waveforms/Exp12_.jpg)
-![Experiment 13 n/a](Diagrams/Exp12-Waveforms/Exp12_.jpg)
+![Experiment 13 n/a](Simulation/Exp12-Waveforms/Exp12_.jpg)
+![Experiment 13 n/a](Simulation/Exp12-Waveforms/Exp12_.jpg)
 
 </details>
 
@@ -200,7 +232,7 @@ This laboratory experiment covers the effects of bandwidth limitations on digita
 
 **Figure 14.**
 
-![Experiment 13 Setup](Diagrams/Exp14-Diagrams/Exp14_Fig14..jpg)
+![Experiment 14 Setup](Diagrams/Exp14-Diagrams/Exp14_Fig14..jpg)
 
 </details>
 
@@ -210,8 +242,8 @@ This laboratory experiment covers the effects of bandwidth limitations on digita
 
 **n/a**
 
-![Experiment 14 n/a](Diagrams/Exp12-Waveforms/Exp14_.jpg)
-![Experiment 14 n/a](Diagrams/Exp12-Waveforms/Exp14_.jpg)
+![Experiment 14 n/a](Simulation/Exp12-Waveforms/Exp14_.jpg)
+![Experiment 14 n/a](Simulation/Exp12-Waveforms/Exp14_.jpg)
 
 </details>
 
