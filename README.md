@@ -130,7 +130,7 @@ PCM encoding consists of three main steps:
 
 ### Circuit Diagram
 <details>
-  <summary>Experiment 11 Diagram</summary>
+  <summary>Experiment 12 Diagram</summary>
 
 **Figure 12.3**
 
@@ -162,7 +162,7 @@ Step 12: PCM Encoder output connected to Channel 2
 ![Experiment 12 Part A-12](Simulation/Exp12-Waveforms/Exp12_A12.jpg)
 
 End of Part A
-![Experiment 12 Part A-End](Simulation/Exp12-Waveforms/Exp12_A-end.jpg)
+![Experiment 12 Part A-End](Simulation/Exp12-Waveforms/Exp12_A_end.jpg)
 
 
 **Part B Results**
