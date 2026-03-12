@@ -234,21 +234,21 @@ This laboratory experiment covers the process of decoding PCM signals and recons
 **Part A Result**
 
 PCM Data
-![Experiment 13 PCM](Simulation/Exp13-Waveforms/Exp13_A.png)
+![Experiment 13 PCM Encoding](Simulation/Exp13-Waveforms/Exp13_A.png)
 
 
 
 **Part B Result**
 
 PCM Decoder
-![Experiment 13 PCM](Simulation/Exp13-Waveforms/Exp13_B.png)
+![Experiment 13 PCM Decoding](Simulation/Exp13-Waveforms/Exp13_B.png)
 
 
 
 **Part D Result**
 
 Modified set-up with reconstructed signal
-![Experiment 13 PCM](Simulation/Exp13-Waveforms/Exp13_D.png)
+![Experiment 13 Reconstruction](Simulation/Exp13-Waveforms/Exp13_D.png)
 
 </details>
 
@@ -302,36 +302,36 @@ This laboratory experiment covers the effects of bandwidth limitations on digita
 **Part A Result**
 
 Step 12: Tuneable Low-Pass Filter module models bandwidth limiting of the channel
-![Experiment 14 Part A](Simulation/Exp12-Waveforms/Exp14_A.png)
+![Experiment 14 Part A](Simulation/Exp14-Waveforms/Exp14_A.png)
 
 Step 13: VDC control is varied and Cut-off Frequency control is adjusted anti-clockwise
-![Experiment 14 Part A](Simulation/Exp12-Waveforms/Exp14_A13.png)
+![Experiment 14 Part A](Simulation/Exp14-Waveforms/Exp14_A13.png)
 
 
 
 **Part B Result**
 
 Step 21: Sequence Generator is used to model a digital signal.
-![Experiment 14 Part B](Simulation/Exp12-Waveforms/Exp14_B.png)
+![Experiment 14 Part B](Simulation/Exp14-Waveforms/Exp14_B.png)
 
 Step 25: Tuneable Low-pass Filter cut-off frequency control is adjusted anti-clockwise
-![Experiment 14 Part B](Simulation/Exp12-Waveforms/Exp14_B25.png)
+![Experiment 14 Part B](Simulation/Exp14-Waveforms/Exp14_B25.png)
 
 Step 29: The sequence generators's clk is provided by the VCO module's digital output
-![Experiment 14 Part B](Simulation/Exp12-Waveforms/Exp14_B29.png)
+![Experiment 14 Part B](Simulation/Exp14-Waveforms/Exp14_B29.png)
 
 Step 31: The VCO Frequency control is adjusted clockwise
-![Experiment 14 Part B](Simulation/Exp12-Waveforms/Exp14_B31.png)
+![Experiment 14 Part B](Simulation/Exp14-Waveforms/Exp14_B31.png)
 
 
 
 **Part C Result**
 
 Step 36: The variable DC module's DC voltage control is varied and observed
-![Experiment 14 Part C](Simulation/Exp12-Waveforms/Exp14_C36.png)
+![Experiment 14 Part C](Simulation/Exp14-Waveforms/Exp14_C36.png)
 
 Step 40: Comparison of the restored digital signal with the bandwidth limited signal
-![Experiment 14 Part C](Simulation/Exp12-Waveforms/Exp14_C40.png)
+![Experiment 14 Part C](Simulation/Exp14-Waveforms/Exp14_C40.png)
 
 
 </details>
