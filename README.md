@@ -115,6 +115,9 @@ This laboratory experiment covers the principles of signal sampling and the reco
 
 </details>
 
+### Observation
+In this experiment, different sampling methods such as natural sampling and sample-and-hold were explored. It was observed that natural sampling produced pulses that followed the shape of the original signal, while the sample-and-hold method maintained the sampled value for a short period, resulting in a step-like waveform. The sampled signal was then passed through a reconstruction filter, which smoothed the waveform and produced an output that closely resembled the original analog signal.
+
 ---
 ## Laboratory Experiment 12: PCM Encoding
 This laboratory experiment covers the process of converting analog signals into digital signals through pulse code modulation (PCM).
@@ -184,7 +187,7 @@ End of Part D
 </details>
 
 ### Observation
-The PCM encoder successfully converted the analog input signal into a digital bitstream. Each sample was quantized and represented as a binary value, demonstrating how analog information can be digitally transmitted and processed.
+The PCM encoder converted the analog input signal into a digital bitstream by sampling and quantizing the signal. Each sample was represented by a binary value, showing how analog information can be digitally transmitted. Minor differences between the original signal and the encoded output were observed due to quantization.
 
 ---
 ## Laboratory Experiment 13: PCM Decoding
@@ -199,8 +202,28 @@ This laboratory experiment covers the process of decoding PCM signals and recons
 <details>
   <summary>Experiment 13 Diagram</summary>
 
-**Figure 13.**
-![Experiment 13 Setup](Diagrams/Exp13-Diagrams/Exp13_Fig13..jpg)
+**Part A: Setting up the PCM Encoder**
+
+**Figure 13.2: PCM Data w/ variable DCV**
+![Experiment 13 Setup](Diagrams/Exp13-Diagrams/Exp13_Fig13.2.jpg)
+
+
+**Figure 13.4: PCM Data w/ VCO**
+![Experiment 13 Setup](Diagrams/Exp13-Diagrams/Exp13_Fig13.4.jpg)
+
+
+
+**Part B: Decoding the PCM data**
+
+**Figure 13.6: PCM Encoding-Decoding**
+![Experiment 13 Setup](Diagrams/Exp13-Diagrams/Exp13_Fig13.6.jpg)
+
+
+
+**Part D: Recovering the message**
+
+**Figure 13.11: PCM Encoding-Decoding-Reconstruction**
+![Experiment 13 Setup](Diagrams/Exp13-Diagrams/Exp13_Fig13.11.jpg)
 
 </details>
 
@@ -208,14 +231,29 @@ This laboratory experiment covers the process of decoding PCM signals and recons
 <details>
   <summary>Experiment 13 Result</summary>
 
-**n/a**
-![Experiment 13 n/a](Simulation/Exp12-Waveforms/Exp12_.jpg)
-![Experiment 13 n/a](Simulation/Exp12-Waveforms/Exp12_.jpg)
+**Part A Result**
+
+PCM Data
+![Experiment 13 PCM](Simulation/Exp13-Waveforms/Exp13_A.jpg)
+
+
+
+**Part B Result**
+
+PCM Decoder
+![Experiment 13 PCM](Simulation/Exp13-Waveforms/Exp13_B.jpg)
+
+
+
+**Part D Result**
+
+Modified set-up with reconstructed signal
+![Experiment 13 PCM](Simulation/Exp13-Waveforms/Exp13_D.jpg)
 
 </details>
 
 ### Observation
-The PCM decoder converted the binary bitstream back into an analog waveform. Although slight distortion due to quantization was observed, the reconstructed signal closely resembled the original message signal.
+In this experiment, a reconstructed message signal was obtained by first generating PCM data using a PCM encoder. The resulting bit stream was then passed through a PCM decoder, which converted the digital data back into its corresponding quantized levels. Finally, a low-pass filter was added to the circuit to reconstruct the signal, producing an output waveform that closely resembled the original signal.
 
 ---
 ## Laboratory Experiment 14: Bandwidth limiting and restoring digital signals
@@ -230,9 +268,30 @@ This laboratory experiment covers the effects of bandwidth limitations on digita
 <details>
   <summary>Experiment 14 Diagram</summary>
 
-**Figure 14.**
+**Part A: The effects of bandwidth limiting on PCM decoding**
 
-![Experiment 14 Setup](Diagrams/Exp14-Diagrams/Exp14_Fig14..jpg)
+**Figure 14.4: PCM Encoding-Decoding**
+![Experiment 14 Setup](Diagrams/Exp14-Diagrams/Exp14_Fig14.4.jpg)
+
+**Figure 14.6: Tuneable Low-pass Filter module models the bandwidth limiting of the channel**
+![Experiment 14 Setup](Diagrams/Exp14-Diagrams/Exp14_Fig14.4.jpg)
+
+
+
+**Part B: The effects of bandwidth limiting on a digital signal's shape**
+
+**Figure 14.8: Digital signal modeling - BW limited channel**
+![Experiment 14 Setup](Diagrams/Exp14-Diagrams/Exp14_Fig14.8.jpg)
+
+**Figure 14.10: Digital signal modeling - BW limited channel (Master Signal changed to VCO)**
+![Experiment 14 Setup](Diagrams/Exp14-Diagrams/Exp14_Fig14.10.jpg)
+
+
+
+**Part C: Restoring digital signals**
+
+**Figure 14.12: The comparator is used to restore the bandwidth limited digital signal**
+![Experiment 14 Setup](Diagrams/Exp14-Diagrams/Exp14_Fig14.12.jpg)
 
 </details>
 
@@ -240,15 +299,45 @@ This laboratory experiment covers the effects of bandwidth limitations on digita
 <details>
   <summary>Experiment 14 Result</summary>
 
-**n/a**
-![Experiment 14 n/a](Simulation/Exp12-Waveforms/Exp14_.jpg)
-![Experiment 14 n/a](Simulation/Exp12-Waveforms/Exp14_.jpg)
+**Part A Result**
+
+Step 12: Tuneable Low-Pass Filter module models bandwidth limiting of the channel
+![Experiment 14 Part A](Simulation/Exp12-Waveforms/Exp14_A.jpg)
+
+Step 13: VDC control is varied and Cut-off Frequency control is adjusted anti-clockwise
+![Experiment 14 Part A](Simulation/Exp12-Waveforms/Exp14_A13.jpg)
+
+
+
+**Part B Result**
+
+Step 21: Sequence Generator is used to model a digital signal.
+![Experiment 14 Part B](Simulation/Exp12-Waveforms/Exp14_B.jpg)
+
+Step 25: Tuneable Low-pass Filter cut-off frequency control is adjusted anti-clockwise
+![Experiment 14 Part B](Simulation/Exp12-Waveforms/Exp14_B25.jpg)
+
+Step 29: The sequence generators's clk is provided by the VCO module's digital output
+![Experiment 14 Part B](Simulation/Exp12-Waveforms/Exp14_B29.jpg)
+
+Step 31: The VCO Frequency control is adjusted clockwise
+![Experiment 14 Part B](Simulation/Exp12-Waveforms/Exp14_B31.jpg)
+
+
+
+**Part C Result**
+
+Step 36: The variable DC module's DC voltage control is varied and observed
+![Experiment 14 Part C](Simulation/Exp12-Waveforms/Exp14_C36.jpg)
+
+Step 40: Comparison of the restored digital signal with the bandwidth limited signal
+![Experiment 14 Part C](Simulation/Exp12-Waveforms/Exp14_C40.jpg)
 
 
 </details>
 
 ### Observation
-When the digital signal passed through a bandwidth-limited channel, the waveform became distorted and the transitions between bits became less sharp. After applying signal restoration techniques, the waveform was reshaped and the digital signal became clearer, improving its readability and reliability.
+In this experiment, the effects of bandwidth limiting on digital signals and PCM decoding were observed. I gained an understanding that when the signal passes through a bandwidth-limited channel, the shape of the digital waveform becomes distorted, with rounded edges and reduced sharp transitions between logic levels. This distortion made the signal less ideal for decoding. However, by using signal restoration techniques such as filtering or reshaping circuits, the digital waveform was improved and became closer to its original square form.
 
 ---
 ## Learnings Summary
